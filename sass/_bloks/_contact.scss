@@ -1,0 +1,103 @@
+.contact {
+    margin-bottom: 247px;
+}
+
+.contact__inner {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact__right {
+    width: 100%;
+    max-width: 978px;
+    
+    background-image: url("../images/feedback-bg.png");
+    background-repeat: no-repeat;
+    background-size: 988px 624px;
+    background-color:  #333333;
+}
+
+.contact__info {
+    width: 100%;
+    max-width: 375px;
+    margin-top: 62px;
+    margin-left: 166px;
+}
+
+.contact__title {
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+
+.contact__subtitle {
+    margin-top: 0;
+    margin-bottom: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+
+
+
+.contact__name {
+    width: 100%;
+    max-width: 375px;
+    margin-bottom: 14px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 22px;
+}
+
+.contact__email {
+
+    width: 375px;
+    
+    margin-bottom: 14px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 22px;
+    
+}
+
+
+.contact__text {
+    width: 375px;
+    height: 165px;
+    margin-bottom: 30px;
+    padding-top: 17px;
+    padding-left: 22px;
+    resize: none;
+}
+
+.contact__button {
+    width: 226px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    background: #FFBD54;
+    border-radius: 0px;
+
+    &:hover {
+        background-color: #ffbd54cc;
+    }
+
+    &:active {
+        background-color: #ffbd5499;
+    }
+}
+
+
